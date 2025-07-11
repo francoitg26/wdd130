@@ -15,6 +15,21 @@ img {
 main {
     max-width: 900px;
     margin: 0 auto;
+    background-color: #f2f2f2;
+    /* fondo gris */
+    padding: 1rem;
+}
+
+/* Paragraph Rule */
+p {
+    padding: 0;
+    /* requerido por el validador */
+    line-height: 1.5;
+}
+
+/* Extra spacing below last image in main */
+main img {
+    margin-bottom: 1rem;
 }
 
 /* Aside Rule */
@@ -28,12 +43,6 @@ aside {
 aside img {
     border-radius: 10px;
     margin-top: 10px;
-}
-
-/* Paragraph Rule */
-p {
-    padding: 0.5rem 0;
-    line-height: 1.5;
 }
 
 /* Footer Rule */
