@@ -44,11 +44,13 @@ footer {
     padding: 1rem 0;
 }
 
+/* Nav Rule */
 nav {
     background-color: #eee;
     padding: 10px;
 }
 
+/* Nav Anchor Rule */
 nav a {
     text-decoration: none;
     color: #333;
