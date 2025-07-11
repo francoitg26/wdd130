@@ -44,7 +44,6 @@ footer {
     padding: 1rem 0;
 }
 
-
 nav {
     background-color: #eee;
     padding: 10px;
@@ -54,4 +53,8 @@ nav a {
     text-decoration: none;
     color: #333;
     margin-right: 10px;
+}
+
+p {
+    padding: 0;
 }
