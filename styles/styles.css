@@ -65,3 +65,14 @@ nav a {
     color: #333;
     margin-right: 10px;
 }
+
+/* SOCIAL MEDIA ICON STYLES */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
