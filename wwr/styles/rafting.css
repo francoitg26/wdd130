@@ -1,0 +1,78 @@
+/* Heading 1 Rule */
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Image Rule */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Main Rule */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    /* fondo gris */
+    padding: 1rem;
+}
+
+/* Paragraph Rule */
+p {
+    padding: 0;
+    /* requerido por el validador */
+    line-height: 1.5;
+}
+
+/* Extra spacing below last image in main */
+main img {
+    margin-bottom: 1rem;
+}
+
+/* Aside Rule */
+aside {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #ccc;
+}
+
+/* Aside Image Rule */
+aside img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer Rule */
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.9em;
+    padding: 1rem 0;
+}
+
+/* Nav Rule */
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+/* Nav Anchor Rule */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* SOCIAL MEDIA ICON STYLES */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
