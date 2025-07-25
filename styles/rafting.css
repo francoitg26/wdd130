@@ -1,0 +1,112 @@
+/* ============================
+   Rafting Site - rafting.css
+   WDD130 - Week 04
+   ============================ */
+
+/* Font Variables */
+:root {
+    --primary-color: #0B3954;
+    --secondary-color: #BFD7EA;
+    --accent-color: #FF6663;
+    --heading-font: 'Open Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: white;
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+/* Header - Grid Layout */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header img {
+    max-height: 60px;
+}
+
+/* Navigation - Flex */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* Figure Styling */
+figure {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #666;
+}
+
+/* Footer - Flex Layout */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .socialmedia img {
+    width: 30px;
+}
