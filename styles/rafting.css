@@ -1,0 +1,121 @@
+/* ============================
+   CSS for Rafting About Us Page
+   WDD130 - Week 04 Project
+   ============================ */
+
+/* :root Variables */
+:root {
+    --primary-color: #0B3954;
+    --secondary-color: #BFD7EA;
+    --accent-color: #FF6663;
+    --heading-font: 'Open Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+/* Box Sizing Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HEADER - CSS Grid */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* Adventures Section */
+section.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+section.adventures figure {
+    width: 200px;
+    text-align: center;
+}
+
+section.adventures img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.9em;
+    padding: 1rem 0;
+    background-color: #f2f2f2;
+}
+
+footer .socialmedia {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .socialmedia img {
+    width: 30px;
+    vertical-align: middle;
+}
