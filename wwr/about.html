@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Learn about White Water Rafting Co. — our history, our adventures, and our expert guides who make it all possible.">
     <meta name="author" content="Franco Tapia">
     <title>About Us | White Water Rafting</title>
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts with preconnect (required) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -22,37 +22,33 @@
     <header>
         <img src="images/logo.png" alt="Rafting Site Logo">
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
 
     <main>
-        <h1>About Us</h1>
+        <section class="hero">
+            <img src="images/rafting.jpg" alt="Hero image of rafting adventure">
+            <h1>About Us</h1>
+            <article>
+                <img src="images/profile.jpg" alt="Rafting guide photo">
+                <p>White Water Rafting Co. was founded with a passion for adventure and a love for the outdoors. Our
+                    experienced team is committed to providing safe, exciting, and unforgettable rafting experiences.
+                </p>
+            </article>
+        </section>
 
         <section class="history">
-            <h2>Our History</h2>
-            <p>White Water Rafting Co. was founded in 1995 by a group of passionate explorers who wanted to share their
-                love of rivers with the world. Over the decades, we've grown into a leading adventure company known for
-                safety, fun, and unforgettable experiences.</p>
-            <p>Our journey began on the Colorado River and has since expanded to multiple rivers across the country.
-                We've guided over 50,000 happy rafters and counting!</p>
+            <h2>History</h2>
+            <p>We started over 15 years ago with a single raft and a dream. Since then, we’ve grown into one of the most
+                respected rafting companies in the region, known for our safety, professionalism, and fun!</p>
         </section>
 
         <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <p>From family-friendly floats to intense whitewater challenges, our adventures are designed for every
-                thrill-seeker. Our trained guides ensure your safety while making your trip exciting and memorable.</p>
-
-            <!-- 10+ Images for Grader -->
-            <figure>
-                <img src="images/happy-clients.jpg" alt="Group of happy rafters on river">
-                <figcaption>Our guests smiling after an epic ride through Class V rapids!</figcaption>
-            </figure>
+            <h2>Adventure Awaits</h2>
 
             <figure>
                 <img src="images/facebook.png" alt="Facebook logo for our page">
@@ -75,28 +71,28 @@
             </figure>
 
             <figure>
-                <img src="images/logo.png" alt="Rafting Co. badge logo">
-                <figcaption>Our logo represents the adventure spirit of our brand.</figcaption>
+                <img src="images/happy-clients.jpg" alt="Group of happy rafters on river">
+                <figcaption>Smiles all around after a successful Class IV run!</figcaption>
             </figure>
 
             <figure>
-                <img src="images/facebook.png" alt="Social media marketing on Facebook">
-                <figcaption>Facebook helps us connect with thousands of happy clients.</figcaption>
+                <img src="images/facebook.png" alt="Facebook outreach on rafting trips">
+                <figcaption>Rafting tips posted weekly on Facebook.</figcaption>
             </figure>
 
             <figure>
                 <img src="images/instagram.png" alt="Instagram outreach for rafting trips">
-                <figcaption>We post river stories, scenic shots, and highlights every day.</figcaption>
+                <figcaption>Instagram stories from recent customers.</figcaption>
             </figure>
 
             <figure>
                 <img src="images/twitter.png" alt="Twitter real-time adventure updates">
-                <figcaption>Weather alerts and quick updates go out live on Twitter.</figcaption>
+                <figcaption>Live tweets from our instructors on the river.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/logo.png" alt="Rafting Co. alternate logo">
-                <figcaption>Our alternate logo version for branded events and gear.</figcaption>
+                <img src="images/logo.png" alt="Rafting Co. badge logo">
+                <figcaption>Our badge-style logo featured on all rafting gear.</figcaption>
             </figure>
         </section>
     </main>
@@ -104,9 +100,9 @@
     <footer>
         <p>&copy; 2025 White Water Rafting Co. | Franco Tapia</p>
         <div class="socialmedia">
-            <a href="#"><img src="images/facebook.png" alt="Facebook logo for our page"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram logo for our page"></a>
-            <a href="#"><img src="images/twitter.png" alt="Twitter logo for our updates"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter logo"></a>
         </div>
     </footer>
 </body>
