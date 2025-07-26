@@ -109,6 +109,6 @@ footer p {
 .socialmedia {
     display: flex;
     justify-content: flex-end;
-    /* Aligned right per rubric */
+    /* ✅ alineados a la derecha */
     gap: 1rem;
 }
