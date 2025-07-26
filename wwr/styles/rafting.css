@@ -1,0 +1,121 @@
+/* ============================
+   CSS for Rafting About Us Page
+   WDD130 - Week 04 Project
+   ============================ */
+
+:root {
+    --primary-color: #0B3954;
+    --secondary-color: #BFD7EA;
+    --accent-color: #FF6663;
+    --heading-font: 'Open Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: var(--primary-color);
+}
+
+/* Headings */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+header img {
+    max-width: 100px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Figures */
+figure {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
