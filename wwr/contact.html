@@ -39,12 +39,21 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="purpose">Purpose of Message</label>
-                <select id="purpose" name="purpose">
-                    <option value="inquiry">General Inquiry</option>
-                    <option value="reservation">Trip Reservation</option>
-                    <option value="feedback">Feedback</option>
-                </select>
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+                    <label for="inquiry">
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
 
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
@@ -68,6 +77,22 @@
         <section>
             <h2>Our Location</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Jane Doe smiling at desk">
+                <figcaption>Jane Doe – Customer Service</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="John Smith standing by raft">
+                <figcaption>John Smith – Head Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Lisa Brown taking reservations">
+                <figcaption>Lisa Brown – Reservations</figcaption>
+            </figure>
         </section>
 
         <section>
