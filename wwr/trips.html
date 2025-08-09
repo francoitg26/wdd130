@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>White Water Rafting | Trips</title>
+    <meta name="description" content="Browse our rafting trips, dates, and pricing.">
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="Rafting Co. logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- CTA hacia Contact -->
+        <section class="cta">
+            <h1>Find your perfect trip</h1>
+            <a class="button" href="contact.html">Contact Us</a>
+        </section>
+
+        <!-- 3+ trips (cards con imagen + descripción) -->
+        <section class="trips-cards">
+            <article class="trip">
+                <img src="images/rafting.jpg" alt="River Discovery half-day trip">
+                <h3>River Discovery</h3>
+                <p>Half-day, class II–III. Perfect for first-timers and families.</p>
+            </article>
+            <article class="trip">
+                <img src="images/rafting.jpg" alt="Jungle Run full-day trip">
+                <h3>Jungle Run</h3>
+                <p>Full-day, class III–IV. Beautiful scenery and exciting rapids.</p>
+            </article>
+            <article class="trip">
+                <img src="images/rafting.jpg" alt="Glacier Gorge 2-day expedition">
+                <h3>Glacier Gorge</h3>
+                <p>2-day expedition, class IV–V. For experienced paddlers only.</p>
+            </article>
+        </section>
+
+        <!-- Tabla de paquetes -->
+        <section class="trips-table">
+            <table>
+                <caption>Available Trips</caption>
+                <thead>
+                    <tr>
+                        <th>Trip</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Season</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>River Discovery</td>
+                        <td>Half-day</td>
+                        <td>II–III</td>
+                        <td>Oct–Mar</td>
+                        <td>$49</td>
+                    </tr>
+                    <tr>
+                        <td>Jungle Run</td>
+                        <td>Full-day</td>
+                        <td>III–IV</td>
+                        <td>Sep–Apr</td>
+                        <td>$89</td>
+                    </tr>
+                    <tr>
+                        <td>Glacier Gorge</td>
+                        <td>2 days</td>
+                        <td>IV–V</td>
+                        <td>Nov–Feb</td>
+                        <td>$199</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> White Water Rafting Co.</p>
+        <!-- Si luego haces tu wireframe real, cámbialo por el tuyo -->
+        <p><a href="images/trips-wireframe.png">Trips Wireframe</a></p>
+        <div class="social">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
+        <script>
+            const y = document.getElementById('year');
+            if (y) y.textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>

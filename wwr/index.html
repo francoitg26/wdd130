@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>White Water Rafting | Home</title>
+    <meta name="description" content="Guided white water rafting trips for families and thrill-seekers.">
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="Rafting Co. logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO con título sobre la imagen -->
+        <section class="hero">
+            <img src="images/rafting.jpg" alt="Rafting in a wild river">
+            <h1>Ready for Your Next Adventure?</h1>
+        </section>
+
+        <!-- Newsletter con name + email -->
+        <section class="newsletter">
+            <h2>Join our newsletter</h2>
+            <form action="#" method="post">
+                <label>
+                    Name
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" required>
+                </label>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- CTA hacia Trips -->
+        <section class="cta">
+            <p>See all our adventures and book your spot.</p>
+            <a class="button" href="trips.html">Explore Trips</a>
+        </section>
+
+        <!-- Sección en GRID con 2+ imágenes -->
+        <section class="highlights">
+            <article>
+                <img src="images/happy-clients.jpg" alt="Happy rafting clients">
+                <h3>Family-Friendly Runs</h3>
+                <p>Gentle class II–III rapids for all ages.</p>
+            </article>
+            <article>
+                <img src="images/rafting.jpg" alt="Rafting class IV rapids">
+                <h3>Extreme Rapids</h3>
+                <p>Adrenaline class IV–V for experienced paddlers.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> White Water Rafting Co.</p>
+        <div class="social">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
+        <script>
+            const y = document.getElementById('year');
+            if (y) y.textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>
